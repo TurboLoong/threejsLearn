@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>three</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      /* 隐藏body窗口区域滚动条 */
+    }
+    .container{
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script src="./build/three.min.js"></script>
+  <script src="./examples/js/controls/OrbitControls.js"></script>
+</head>
+
+<body>
+  <!-- <div id="pos"></div> -->
+  <!-- 控制div位置 -->
+  <div id="pos" class="container"></div>
+  <script type="module">
+    import "./src/index.js";
+  </script>
+</body>
+
+</html>
